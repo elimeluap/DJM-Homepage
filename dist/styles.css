@@ -17,6 +17,10 @@ ul {
   background-color: #f1f1f7 !important;
 }
 
+.bg-dark {
+  background-color: #48398a !important;
+}
+
 .section-title {
   font-size: 4rem;
 }
@@ -95,20 +99,20 @@ ul {
   padding-bottom: 6rem;
 }
 
-h2.section-title {
+.line-title {
   position: relative;
 }
-h2.section-title .line {
+.line-title .line {
   position: absolute;
   border: 1px solid #a48c67;
 }
-h2.section-title .line.n1 {
+.line-title .line.n1 {
   top: 20px;
   left: -42px;
   width: 100px;
   transform: rotate(-45deg);
 }
-h2.section-title .line.n2 {
+.line-title .line.n2 {
   top: 8px;
   left: -44px;
   width: 75px;

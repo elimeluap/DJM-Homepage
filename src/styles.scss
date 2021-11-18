@@ -25,6 +25,10 @@ $secondaryColor: #a48c67;
   background-color: $lightColor !important;
 }
 
+.bg-dark {
+  background-color: $primaryColor !important;
+}
+
 .section-title {
   font-size: 4rem;
 }
@@ -112,7 +116,7 @@ $secondaryColor: #a48c67;
   padding-bottom: 6rem;
 }
 
-h2.section-title {
+.line-title {
   position: relative;
   .line {
     position: absolute;
