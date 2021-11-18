@@ -18,16 +18,49 @@ $secondaryColor: #a48c67;
 
 // Helpers
 .bg-light {
-  background-color: $lightColor;
+  background-color: $lightColor !important;
 }
 
 // Custom styling
-.social-media {
+.social-media,
+.primary-nav,
+.secondary-nav {
   a {
+    font-weight: bold;
     color: $darkColor;
     text-decoration: none;
     &:hover {
       color: $secondaryColor;
     }
+  }
+}
+
+@media (min-width: 1200px) {
+  .bg-custom {
+    background-color: $lightColor !important;
+  }
+}
+
+.hamburger-icon {
+  i {
+    color: #707070;
+    cursor: pointer;
+    &:hover {
+      color: $secondaryColor;
+    }
+  }
+}
+
+.primary-nav {
+  i {
+    font-size: small;
+    color: $secondaryColor;
+  }
+}
+
+.secondary-nav {
+  a {
+    font-size: 12px;
+    text-transform: uppercase;
   }
 }

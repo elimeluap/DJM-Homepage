@@ -10,15 +10,43 @@ ul {
 }
 
 .bg-light {
-  background-color: #f1f1f7;
+  background-color: #f1f1f7 !important;
 }
 
-.social-media a {
+.social-media a,
+.primary-nav a,
+.secondary-nav a {
+  font-weight: bold;
   color: #201d1d;
   text-decoration: none;
 }
-.social-media a:hover {
+.social-media a:hover,
+.primary-nav a:hover,
+.secondary-nav a:hover {
   color: #a48c67;
+}
+
+@media (min-width: 1200px) {
+  .bg-custom {
+    background-color: #f1f1f7 !important;
+  }
+}
+.hamburger-icon i {
+  color: #707070;
+  cursor: pointer;
+}
+.hamburger-icon i:hover {
+  color: #a48c67;
+}
+
+.primary-nav i {
+  font-size: small;
+  color: #a48c67;
+}
+
+.secondary-nav a {
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */
