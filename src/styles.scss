@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+figure {
+  margin: 0;
+}
+
 ul {
   margin: 0;
   list-style: none;
@@ -19,6 +23,25 @@ $secondaryColor: #a48c67;
 // Helpers
 .bg-light {
   background-color: $lightColor !important;
+}
+
+.section-title {
+  font-size: 4rem;
+}
+
+.color-gold {
+  color: $secondaryColor !important;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+.absolute-centering {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 // Custom styling
@@ -62,5 +85,36 @@ $secondaryColor: #a48c67;
   a {
     font-size: 12px;
     text-transform: uppercase;
+  }
+}
+
+.hero {
+  width: 100%;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+  h2 {
+    position: relative;
+    .line {
+      position: absolute;
+      border: 1px solid $secondaryColor;
+      &.n1 {
+        top: 20px;
+        left: -42px;
+        width: 100px;
+        transform: rotate(-45deg);
+      }
+      &.n2 {
+        top: 8px;
+        left: -44px;
+        width: 75px;
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .hero {
+    width: 60%;
   }
 }

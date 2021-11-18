@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+figure {
+  margin: 0;
+}
+
 ul {
   margin: 0;
   list-style: none;
@@ -11,6 +15,25 @@ ul {
 
 .bg-light {
   background-color: #f1f1f7 !important;
+}
+
+.section-title {
+  font-size: 4rem;
+}
+
+.color-gold {
+  color: #a48c67 !important;
+}
+
+.lh-2 {
+  line-height: 2;
+}
+
+.absolute-centering {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .social-media a,
@@ -47,6 +70,37 @@ ul {
 .secondary-nav a {
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.hero {
+  width: 100%;
+  padding-top: 12rem;
+  padding-bottom: 6rem;
+}
+.hero h2 {
+  position: relative;
+}
+.hero h2 .line {
+  position: absolute;
+  border: 1px solid #a48c67;
+}
+.hero h2 .line.n1 {
+  top: 20px;
+  left: -42px;
+  width: 100px;
+  transform: rotate(-45deg);
+}
+.hero h2 .line.n2 {
+  top: 8px;
+  left: -44px;
+  width: 75px;
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 992px) {
+  .hero {
+    width: 60%;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
