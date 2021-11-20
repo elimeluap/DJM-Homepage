@@ -16,6 +16,7 @@ ul {
 
 // Variables
 $lightColor: #f1f1f7;
+$greyColor: #707070;
 $darkColor: #201d1d;
 $primaryColor: #48398a;
 $secondaryColor: #a48c67;
@@ -23,6 +24,10 @@ $secondaryColor: #a48c67;
 // Helpers
 .bg-light {
   background-color: $lightColor !important;
+}
+
+.bg-grey {
+  background: $greyColor !important;
 }
 
 .bg-dark {
@@ -39,6 +44,10 @@ $secondaryColor: #a48c67;
 
 .secondary-color {
   color: $secondaryColor !important;
+}
+
+.tertiary-color {
+  color: $greyColor !important;
 }
 
 .border-bottom-primary-color {
@@ -74,6 +83,10 @@ $secondaryColor: #a48c67;
   padding: 6rem 0;
 }
 
+.text-small {
+  font-size: 10px;
+}
+
 // Custom styling
 .social-media,
 .primary-nav,
@@ -96,7 +109,7 @@ $secondaryColor: #a48c67;
 
 .hamburger-icon {
   i {
-    color: #707070;
+    color: $greyColor;
     cursor: pointer;
     &:hover {
       color: $secondaryColor;
@@ -140,5 +153,40 @@ $secondaryColor: #a48c67;
       width: 75px;
       transform: rotate(-45deg);
     }
+  }
+}
+
+.dots {
+  ul {
+    li {
+      position: relative;
+      width: 20px;
+      height: 20px;
+      background: none;
+      border-radius: 50%;
+      &:not(:last-of-type) {
+        margin-right: 1px;
+      }
+      a {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 5px;
+        height: 5px;
+        background: lighten($color: $greyColor, $amount: 40%);
+        border-radius: 50%;
+        &:hover {
+          background: $greyColor;
+        }
+      }
+    }
+  }
+}
+
+.chevrons {
+  margin: 4.4rem 0 2rem 0;
+  i {
+    cursor: pointer;
   }
 }

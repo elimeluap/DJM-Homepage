@@ -17,6 +17,10 @@ ul {
   background-color: #f1f1f7 !important;
 }
 
+.bg-grey {
+  background: #707070 !important;
+}
+
 .bg-dark {
   background-color: #48398a !important;
 }
@@ -31,6 +35,10 @@ ul {
 
 .secondary-color {
   color: #a48c67 !important;
+}
+
+.tertiary-color {
+  color: #707070 !important;
 }
 
 .border-bottom-primary-color {
@@ -63,6 +71,10 @@ ul {
 }
 .section-spacing {
   padding: 6rem 0;
+}
+
+.text-small {
+  font-size: 10px;
 }
 
 .social-media a,
@@ -124,6 +136,37 @@ ul {
   left: -44px;
   width: 75px;
   transform: rotate(-45deg);
+}
+
+.dots ul li {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border-radius: 50%;
+}
+.dots ul li:not(:last-of-type) {
+  margin-right: 1px;
+}
+.dots ul li a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 5px;
+  height: 5px;
+  background: #d6d6d6;
+  border-radius: 50%;
+}
+.dots ul li a:hover {
+  background: #707070;
+}
+
+.chevrons {
+  margin: 4.4rem 0 2rem 0;
+}
+.chevrons i {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
