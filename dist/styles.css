@@ -169,4 +169,9 @@ ul {
   cursor: pointer;
 }
 
+.contact-infos a {
+  color: #212529;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
