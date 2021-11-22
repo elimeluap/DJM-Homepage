@@ -118,6 +118,10 @@ $secondaryColor: #a48c67;
   color: $greyColor !important;
 }
 
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
 .text-small {
   font-size: 10px;
 }
@@ -132,6 +136,10 @@ $secondaryColor: #a48c67;
 
 .text-xl {
   font-size: 4rem;
+}
+
+.text-semi-bold {
+  font-weight: 600;
 }
 
 .lh-2 {
@@ -155,7 +163,6 @@ $secondaryColor: #a48c67;
 .primary-nav,
 .secondary-nav {
   a {
-    font-weight: bold;
     color: $darkColor;
     text-decoration: none;
     &:hover {
@@ -258,6 +265,7 @@ $secondaryColor: #a48c67;
   color: #fff;
   caret-color: #fff;
   &::placeholder {
+    font-size: 14px;
     font-style: italic;
     color: $greyColor;
   }

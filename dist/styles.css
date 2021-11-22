@@ -100,6 +100,10 @@ input:focus {
   color: #707070 !important;
 }
 
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
 .text-small {
   font-size: 10px;
 }
@@ -114,6 +118,10 @@ input:focus {
 
 .text-xl {
   font-size: 4rem;
+}
+
+.text-semi-bold {
+  font-weight: 600;
 }
 
 .lh-2 {
@@ -135,7 +143,6 @@ input:focus {
 .social-media a,
 .primary-nav a,
 .secondary-nav a {
-  font-weight: bold;
   color: #201d1d;
   text-decoration: none;
 }
@@ -231,6 +238,7 @@ input:focus {
   caret-color: #fff;
 }
 .custom-placeholder::placeholder {
+  font-size: 14px;
   font-style: italic;
   color: #707070;
 }
