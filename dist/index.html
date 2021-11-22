@@ -92,11 +92,19 @@
             </nav>
             <nav class="d-none d-xl-block secondary-nav">
               <ul class="d-flex">
-                <li><a href="#">Cases</a></li>
-                <li class="ml-3"><a href="#">News</a></li>
-                <li class="ml-3"><a href="#">Agence</a></li>
-                <li class="ml-3"><a href="#">Jobs</a></li>
-                <li class="ml-3"><a href="#">Contact</a></li>
+                <li><a href="#" class="text-uppercase">Cases</a></li>
+                <li class="ml-3">
+                  <a href="#" class="text-uppercase">News</a>
+                </li>
+                <li class="ml-3">
+                  <a href="#" class="text-uppercase">Agence</a>
+                </li>
+                <li class="ml-3">
+                  <a href="#" class="text-uppercase">Jobs</a>
+                </li>
+                <li class="ml-3">
+                  <a href="#" class="text-uppercase">Contact</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -107,7 +115,7 @@
     <!-- Hero -->
     <section class="bg-light">
       <div class="container expand hero">
-        <h2 class="pb-4 section-title line-title">
+        <h2 class="pb-4 text-xl line-title">
           <span class="line n1"></span><span class="line n2"></span> Think
           <span class="secondary-color">Digital</span>
         </h2>
@@ -193,10 +201,12 @@
           "
         >
           <div class="mr-md-5 mb-5 mb-md-0">
+            <!-- Card title -->
             <h3 class="pb-4 line-title">
               <span class="line n1"></span><span class="line n2"></span>
               Strategy
             </h3>
+            <!-- Card text -->
             <p class="lh-2">
               Mettez au diapason l'ambition et les objectifs de votre société
               avec une stratégie digitale précise et ambitieuse. Ensemble, nous
@@ -207,10 +217,12 @@
             </p>
           </div>
           <div class="mr-md-5 mb-5 mb-md-0">
+            <!-- Card title -->
             <h3 class="pb-4 line-title">
               <span class="line n1"></span><span class="line n2"></span>
               Technology
             </h3>
+            <!-- Card text -->
             <p class="lh-2">
               Plateformes et solutions digitales n'ont plus le moindre secret
               pour nos équipes à la pointe. Nous mettons au service de votre
@@ -221,10 +233,12 @@
             </p>
           </div>
           <div>
+            <!-- Card title -->
             <h3 class="pb-4 line-title">
               <span class="line n1"></span><span class="line n2"></span>
               Marketing
             </h3>
+            <!-- Card text -->
             <p class="lh-2">
               Mettez au diapason l'ambition et les objectifs de votre société
               avec une stratégie digitale précise et ambitieuse. Ensemble, nous
@@ -242,7 +256,7 @@
     <section class="bg-light">
       <div class="section-spacing">
         <div class="d-flex flex-column align-items-center text-center">
-          <h2 class="section-title line-title">
+          <h2 class="text-xl line-title">
             <span class="line n1"></span
             ><span class="line n2"></span>Travaillons Ensemble
           </h2>
@@ -267,13 +281,16 @@
 
     <!-- Blog -->
     <section>
-      <div class="section-spacing">
+      <div class="container-right section-spacing">
+        <!-- Blog article -->
         <article class="d-flex flex-column flex-md-row bg-light">
           <div class="order-2 order-md-1 pt-5 px-5">
             <time datetime="2020-04-21" class="font-weight-bold text-small"
               >21 avril 2020</time
             >
+            <!-- Article title -->
             <h1 class="mb-4">Quand digital rime avec local</h1>
+            <!-- Article text -->
             <p class="w-75 text-justify lh-2">
               Le ralentissement des activités économiques peut avoir de graves
               conséquences à long terme sur les commerces de proximité. Face à
@@ -294,12 +311,13 @@
             >
               Lire plus<i class="fas fa-arrow-right pl-1"></i>
             </button>
-            <div class="d-none d-md-block chevrons">
+            <div class="d-none d-md-block blog-chevrons">
               <i class="fas fa-chevron-left mr-4 tertiary-color"></i>
               <i class="fas fa-chevron-right tertiary-color"></i>
             </div>
           </div>
           <div class="order-1 order-md-2">
+            <!-- Article image -->
             <figure>
               <img
                 src="./media/blog-img.jpg"
@@ -325,7 +343,7 @@
     <!-- Clients -->
     <section class="bg-light">
       <div class="container text-center section-spacing">
-        <h3>Ils nous font confiance !</h3>
+        <h3 class="text-lg">Ils nous font confiance !</h3>
         <p class="py-4 px-4 px-md-0">
           Vous souhaitez confier votre projet à DJM digital et faire partie de
           cette grande famille ?
@@ -420,6 +438,7 @@
             />
           </div>
         </div>
+        <!-- Grid third row -->
         <div class="row">
           <div class="col-md">
             <img
@@ -482,6 +501,56 @@
       </div>
     </section>
 
+    <!-- CTA newsletter -->
+    <section>
+      <div class="container-left bg-dark">
+        <div
+          class="
+            d-flex
+            flex-column flex-md-row
+            justify-content-md-between
+            align-items-center
+            container-right
+          "
+        >
+          <h4 class="text-white my-5 my-md-0 mb-md-0 text-center text-middle">
+            Suivez l'actualité de djm digital
+          </h4>
+          <div class="mr-0 mr-md-5">
+            <input
+              type="text"
+              placeholder="Votre adresse email"
+              class="
+                btn
+                custom-placeholder
+                bg-transparent
+                px-0
+                my-5
+                mx-4
+                border-bottom-white
+                rounded-0
+              "
+            />
+            <button
+              class="
+                btn
+                font-weight-bold
+                bg-transparent
+                text-white
+                px-0
+                my-5
+                border-bottom-white
+                rounded-0
+                text-uppercase
+              "
+            >
+              S'inscrire<i class="fas fa-arrow-right pl-1"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Footer -->
     <footer class="bg-light">
       <div class="container pb-5 section-spacing">
@@ -535,6 +604,7 @@
               flex-column flex-md-row
               justify-content-md-start
               align-items-center
+              text-center
             "
           >
             <li class="mr-md-2 mb-2 mb-md-0">
