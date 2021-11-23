@@ -178,7 +178,33 @@ input:focus {
   padding-top: 12rem;
   padding-bottom: 6rem;
 }
+.hero::before {
+  content: url("media/d.png");
+  position: absolute;
+  top: 164px;
+  left: -60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
+@media (min-width: 576px) {
+  .hero::before {
+    top: 152px;
+    left: 65px;
+  }
+}
+@media (min-width: 768px) {
+  .hero::before {
+    top: 152px;
+    left: 85px;
+  }
+}
+@media (min-width: 992px) {
+  .hero::before {
+    top: 152px;
+    left: 100px;
+  }
+}
 .line-title {
   position: relative;
 }
@@ -197,6 +223,19 @@ input:focus {
   left: -44px;
   width: 75px;
   transform: rotate(-45deg);
+}
+
+.digital-partner {
+  background-image: url("media/djm-digital.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.work-together {
+  background-image: url("media/d.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .dots {
