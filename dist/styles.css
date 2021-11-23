@@ -225,11 +225,21 @@ input:focus {
   transform: rotate(-45deg);
 }
 
+.showcase {
+  top: 10em;
+  margin-top: -10em;
+}
+
 .digital-partner {
   background-image: url("media/djm-digital.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: contain;
+  margin-top: 10em;
+}
+
+.cards-container {
+  margin-top: -2.5vw;
 }
 
 .work-together {
@@ -239,7 +249,7 @@ input:focus {
 }
 
 .dots {
-  margin-top: 1.2rem;
+  margin-top: 2.6rem;
 }
 .dots ul li {
   position: relative;
@@ -270,6 +280,11 @@ input:focus {
 }
 .blog-chevrons i {
   cursor: pointer;
+}
+
+.overlap {
+  position: relative;
+  top: -6rem;
 }
 
 .custom-placeholder {
