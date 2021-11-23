@@ -163,6 +163,10 @@ $secondaryColor: #a48c67;
   flex-basis: 75%;
 }
 
+.overflow-x-h {
+  overflow-x: hidden !important;
+}
+
 // Custom styling
 .social-media,
 .primary-nav,
@@ -213,8 +217,12 @@ $secondaryColor: #a48c67;
     position: absolute;
     top: 164px;
     left: -60px;
+    max-width: 100%;
+    height: 100%;
+    display: block;
     background-repeat: no-repeat;
     background-size: 100%;
+    overflow-x: hidden;
   }
 }
 
