@@ -1,3 +1,5 @@
+'use strict';
+
 // DOM elements
 const hamburgerIcon = document.querySelector('.hamburger-icon');
 const sliderMenu = document.querySelector('.slider-menu');
