@@ -14,6 +14,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <title>DJM digital - Digital thinking company</title>
   </head>
@@ -62,10 +66,91 @@
             </ul>
           </div>
         </div>
+        <!-- Slider menu (small devices) -->
+        <div
+          class="
+            d-flex
+            justify-content-center
+            align-items-center
+            bg-white
+            slider-menu
+          "
+        >
+          <ul
+            class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              text-uppercase
+            "
+          >
+            <li class="border-0 mb-5">
+              <a href="#"
+                ><span class="material-icons text-lg close-icon">
+                  close
+                </span></a
+              >
+            </li>
+            <li class="pb-3 mb-4">
+              <a
+                href="#"
+                class="
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  text-decoration-none
+                "
+                >Strategy<i class="fas fa-plus"></i
+              ></a>
+            </li>
+            <li class="pb-3 mb-4">
+              <a
+                href="#"
+                class="
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  text-decoration-none
+                "
+                >Technology<i class="fas fa-plus"></i
+              ></a>
+            </li>
+            <li class="pb-3 mb-4">
+              <a
+                href="#"
+                class="
+                  d-flex
+                  justify-content-between
+                  align-items-center
+                  text-decoration-none
+                "
+                >Marketing<i class="fas fa-plus"></i
+              ></a>
+            </li>
+            <li class="pb-3 mb-4">
+              <a href="#" class="text-decoration-none">Cases</a>
+            </li>
+            <li class="pb-3 mb-4">
+              <a href="#" class="text-decoration-none">News</a>
+            </li>
+            <li class="pb-3 mb-4">
+              <a href="#" class="text-decoration-none">Agence</a>
+            </li>
+            <li class="pb-3 mb-4">
+              <a href="#" class="text-decoration-none">Jobs</a>
+            </li>
+            <li class="pb-3">
+              <a href="#" class="text-decoration-none">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Horizontal menu (large devices) -->
         <div class="bg-white bg-custom">
           <div
             class="container d-flex justify-content-between align-items-center"
           >
+            <!-- DJM logo -->
             <h1>
               <a
                 href="https://djmdigital.be/fr/"
@@ -76,9 +161,11 @@
                 <img src="./media/djm-logo.png" alt="DJM digital" />
               </a>
             </h1>
+            <!-- Hamburger icon -->
             <div class="d-block d-xl-none hamburger-icon">
               <i class="fas fa-bars"></i>
             </div>
+            <!-- Primary nav menu -->
             <nav class="d-none d-xl-block primary-nav">
               <ul class="d-flex">
                 <li>
@@ -98,6 +185,7 @@
                 </li>
               </ul>
             </nav>
+            <!-- Secondary nav menu -->
             <nav class="d-none d-xl-block secondary-nav">
               <ul class="d-flex">
                 <li>
