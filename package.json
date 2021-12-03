@@ -1,0 +1,23 @@
+{
+  "name": "DJM-Homepage",
+  "version": "1.0.0",
+  "description": "DJM-Homepage",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elimeluap/DJM-Homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elimeluap/DJM-Homepage/issues"
+  },
+  "homepage": "https://elimeluap.github.io/DJM-Homepage",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
